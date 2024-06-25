@@ -26,7 +26,7 @@ Node.js and npm
 
 ## Setup
 Clone the repository:
-git clone https://github.com/Daniel83Y/MoveList.git
+git clone https://github.com/Daniel83Y/MovieList-assignment.git
 cd MoveList
 
 ## Install dependencies:
