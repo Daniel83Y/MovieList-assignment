@@ -1,4 +1,4 @@
-## Movie List
+# Movie List#
 This project is a simple web application that allows users to manage a list of movies. Users can add, edit, and delete movies, as well as view the list of movies with their details.
 
 ## Features
@@ -40,19 +40,19 @@ cd ..
 dotnet run
 
 
-## Configuration:
+### Configuration:
 appsettings.json file path:
 {
   "JsonFilePath": "Data/movies.json"
 }
 
 
-Usage
-Viewing the movie list:
+### Usage
+### Viewing the movie list:
 Navigate to the homepage to see the list of movies sorted by rating.
-Adding a new movie:
+### Adding a new movie:
 Use the "Add New Movie" form to enter the title, genre, and rating for a new movie.
-Editing a movie:
+### Editing a movie:
 Click the "Edit" button next to a movie to update its details.
-Deleting a movie:
+### Deleting a movie:
 Click the "Delete" button next to a movie to remove it from the list.
