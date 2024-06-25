@@ -1,4 +1,4 @@
-# Movie List#
+# Movie List
 This project is a simple web application that allows users to manage a list of movies. Users can add, edit, and delete movies, as well as view the list of movies with their details.
 
 ## Features
