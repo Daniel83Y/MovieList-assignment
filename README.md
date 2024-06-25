@@ -26,20 +26,20 @@ This project is a simple web application that allows users to manage a list of m
 
 ## Setup
 ### Clone the repository:
--bash
--git clone https://github.com/Daniel83Y/MovieList-assignment.git
--cd MovieList 
+- bash
+- git clone https://github.com/Daniel83Y/MovieList-assignment.git
+- cd MovieList 
 
 
 ### Install dependencies:
--cd ClientApp
--npm install
+- cd ClientApp
+- npm install
 
 ### `npm start`
 
 ### Run backend server
--cd .. 
--dotnet run
+- cd .. 
+- dotnet run
 
 
 ### Configuration:
@@ -51,10 +51,10 @@ appsettings.json file path:
 
 ### Usage
 ### Viewing the movie list:
--Navigate to the homepage to see the list of movies sorted by rating.
+- Navigate to the homepage to see the list of movies sorted by rating.
 ### Adding a new movie:
--Use the "Add New Movie" form to enter the title, genre, and rating for a new movie.
+- Use the "Add New Movie" form to enter the title, genre, and rating for a new movie.
 ### Editing a movie:
--Click the "Edit" button next to a movie to update its details.
+- Click the "Edit" button next to a movie to update its details.
 ### Deleting a movie:
--Click the "Delete" button next to a movie to remove it from the list.
+- Click the "Delete" button next to a movie to remove it from the list.
