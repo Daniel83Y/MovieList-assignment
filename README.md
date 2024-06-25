@@ -2,32 +2,34 @@
 This project is a simple web application that allows users to manage a list of movies. Users can add, edit, and delete movies, as well as view the list of movies with their details.
 
 ## Features
-Add new movies with title, genre, and rating
-Edit existing movies
-Delete movies from the list
-View a list of movies sorted by rating
+- Add new movies with title, genre, and rating
+- Edit existing movies
+- Delete movies from the list
+- View a list of movies sorted by rating
 
 ## Technologies Used
-Frontend:
-React
-Axios for HTTP requests
-CSS for styling
+### Frontend:
+- React
+- Axios for HTTP requests
+- CSS for styling
 
-Backend:
-ASP.NET Core
-Entity Framework Core (for future database implementation)
-JSON file storage
-System.Text.Json for JSON handling
+### Backend:
+- ASP.NET Core
+- Entity Framework Core (for future database implementation)
+- JSON file storage
+- System.Text.Json for JSON handling
 
 ## Running the App
-What You Need:
-Node.js and npm
-.NET 5 SDK or later
+### What You Need:
+- Node.js and npm
+- .NET 5 SDK or later
 
 ## Setup
-Clone the repository:
+### Clone the repository:
+bash
 git clone https://github.com/Daniel83Y/MovieList-assignment.git
-cd MoveList
+cd MovieList 
+
 
 ## Install dependencies:
 cd ClientApp
