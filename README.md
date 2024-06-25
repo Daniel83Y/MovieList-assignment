@@ -31,13 +31,13 @@ This project is a simple web application that allows users to manage a list of m
 -cd MovieList 
 
 
-## Install dependencies:
+### Install dependencies:
 -cd ClientApp
 -npm install
 
 ### `npm start`
 
-## Run backend server
+### Run backend server
 -cd .. 
 -dotnet run
 
