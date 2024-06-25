@@ -1,0 +1,154 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+}
+
+h1,
+h2 {
+    color: #333;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    max-width: 800px;
+    /* Increased width */
+    margin: 0 auto;
+}
+
+li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.movie-info {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.movie-title {
+    flex: 3;
+    /* Adjusted flex value */
+    margin-right: 10px;
+    white-space: nowrap;
+    /* Prevent wrapping */
+    overflow: hidden;
+    /* Hide overflow text */
+    text-overflow: ellipsis;
+    /* Add ellipsis for overflow text */
+}
+
+.movie-genre {
+    flex: 1;
+    /* Fixed width */
+    text-align: right;
+    white-space: nowrap;
+    /* Prevent wrapping */
+    min-width: 100px;
+}
+
+.movie-rating {
+    flex: 1;
+    /* Fixed width */
+    text-align: right;
+    white-space: nowrap;
+    /* Prevent wrapping */
+    min-width: 120px;
+}
+
+button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: #ff1a1a;
+    transform: scale(1.05);
+    color: black;
+    font-weight: bold;
+}
+
+input[type="text"],
+select {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin: 5px 0 10px 0;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
+    border-radius: 4px;
+}
+
+button[type="button"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+    border-radius: 4px;
+}
+
+button[type="button"]:hover {
+    background-color: #45a049;
+}
+
+.loading {
+    text-align: center;
+    color: #333;
+    font-size: 18px;
+}
+
+@media (max-width: 600px) {
+
+    li,
+    form {
+        padding: 10px;
+    }
+
+    button {
+        padding: 8px 16px;
+    }
+
+    input[type="text"],
+    select {
+        font-size: 14px;
+    }
+
+    form button {
+        display: block;
+        width: 100%;
+        margin: 10px auto;
+        text-align: center;
+    }
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "Id": 5,
+    "Title": "The Lord of the Rings: The Return of the King",
+    "Genre": "Fantasy",
+    "Rating": 9
+  },
+  {
+    "Id": 7,
+    "Title": "The Avengers (2012)",
+    "Genre": "Action",
+    "Rating": 8
+  },
+  {
+    "Id": 8,
+    "Title": "Black Panther",
+    "Genre": "Action",
+    "Rating": 10
+  },
+  {
+    "Id": 9,
+    "Title": "Warcraft",
+    "Genre": "Fantasy",
+    "Rating": 6
+  },
+  {
+    "Id": 11,
+    "Title": "Bad Boys: Ride or Die",
+    "Genre": "Comedy",
+    "Rating": 7
+  }
+]
